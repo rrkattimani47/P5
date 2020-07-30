@@ -19,3 +19,6 @@ def parent(request):
 
 def child(request):
     return render(request,"child.html")
+
+def sam(request): 
+    return render(request,"myapp/sam.html")
